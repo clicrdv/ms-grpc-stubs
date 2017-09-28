@@ -13,6 +13,7 @@ Google::Protobuf::DescriptorPool.generated_pool.build do
     optional :textContent, :string, 6
     optional :subject, :string, 7
     map :toMap, :string, :string, 8
+    optional :groupId, :string, 9
   end
   add_message "mailservice.SendMailStatus" do
     optional :status, :string, 1

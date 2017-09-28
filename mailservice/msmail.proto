@@ -21,6 +21,7 @@ message ClicRdvMail {
   string textContent = 6;
   string subject = 7;
   map<string, string> toMap = 8;
+  string groupId = 9;
 }
 
 message SendMailStatus {
